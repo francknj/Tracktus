@@ -1,0 +1,472 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"blo",
+				"blockb	Twig : Block (block)"
+			],
+			[
+				"bloc",
+				"blockb	Twig : Block (block)"
+			],
+			[
+				"in",
+				"inheritdoc}	{@inheritdoc}"
+			],
+			[
+				"Tr",
+				"Tracktus"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"Re",
+				"Resources"
+			],
+			[
+				"Reso",
+				"resource"
+			],
+			[
+				"R",
+				"ROLE_ADMIN"
+			],
+			[
+				"fos_user",
+				"fos_userbundle"
+			],
+			[
+				"User",
+				"UserBundle"
+			],
+			[
+				"i",
+				"ifb	Twig : If (block)"
+			],
+			[
+				"if",
+				"if	Twig : If"
+			],
+			[
+				"lo",
+				"logout"
+			],
+			[
+				"bl",
+				"block	Twig : Block"
+			],
+			[
+				"res",
+				"resource"
+			],
+			[
+				"F",
+				"FOSUserBundle"
+			],
+			[
+				"pr",
+				"prefix"
+			],
+			[
+				"pre",
+				"prenom"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"im",
+				"img"
+			],
+			[
+				"My",
+				"MyAppFilmothequeBundle"
+			],
+			[
+				"acteu",
+				"acteur"
+			],
+			[
+				"tr",
+				"tr"
+			],
+			[
+				"p",
+				"<div id=\"footer\">\n	<p>${1001:$SELECTION}</p>\n</div>"
+			],
+			[
+				"r",
+				"routing"
+			],
+			[
+				"ad",
+				"add"
+			],
+			[
+				"lorem",
+				"lorem	Lorem ipsum"
+			],
+			[
+				"li",
+				"link"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: lis",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview Current File"
+			],
+			[
+				"todo",
+				"Show TODOs in project and open files"
+			],
+			[
+				"Package Control:ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"lore",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"to",
+				"Show TODOs in project and open files"
+			],
+			[
+				"tod",
+				"Show TODOs in project and open files"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"int",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"INS",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 132.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/pierre/Projects/TimeTracker/app/config/parameters.ini",
+		"/home/pierre/Projects/TimeTracker/.gitignore",
+		"/home/pierre/Projects/TimeTracker/app/config/config.yml",
+		"/home/pierre/Projects/TimeTracker/app/config/routing.yml",
+		"/home/pierre/Projects/TimeTracker/app/phpunit.xml.dist",
+		"/home/pierre/Projects/TimeTracker/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/config/util.xml",
+		"/home/pierre/Projects/TimeTracker/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/translations/FOSUserBundle.fr.yml",
+		"/home/pierre/Projects/TimeTracker/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Resources/views/Security/login.html.twig",
+		"/home/pierre/Projects/TimeTracker/app/config/security.yml",
+		"/home/pierre/Projects/TimeTracker/src/Tracktus/UserBundle/Resources/config/security.yml",
+		"/home/pierre/Projects/TimeTracker/src/Tracktus/UserBundle/Resources/views/layout.html.twig",
+		"/home/pierre/.config/sublime-text-2/Packages/Default/Base File.sublime-settings",
+		"/home/pierre/Projects/TimeTracker/src/Tracktus/UserBundle/Resources/views/connexion.html.twig",
+		"/home/pierre/Projects/TimeTracker/src/Tracktus/AppBundle/Controller/DefaultController.php",
+		"/home/pierre/Projects/TimeTracker/src/Tracktus/UserBundle/Resources/views/Security/login.html.twig",
+		"/home/pierre/Projects/TimeTracker/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Model/User.php",
+		"/home/pierre/Projects/TimeTracker/src/Tracktus/UserBundle/TracktusUserBundle.php",
+		"/home/pierre/Projects/TimeTracker/src/Tracktus/UserBundle/Tests/Entity/GroupTest.php",
+		"/home/pierre/Projects/TimeTracker/src/Tracktus/UserBundle/Tests/Entity/UserTest.php",
+		"/home/pierre/Projects/TimeTracker/src/Tracktus/UserBundle/Entity/User.php",
+		"/home/pierre/Projects/TimeTracker/src/Tracktus/UserBundle/Entity/Group.php",
+		"/home/pierre/Projects/TimeTracker/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Model/Group.php",
+		"/home/pierre/Projects/TimeTracker/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Entity/Group.php",
+		"/home/pierre/Projects/TimeTracker/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Bundle/Bundle.php",
+		"/home/pierre/Projects/TimeTracker/app/AppKernel.php",
+		"/home/pierre/Projects/TimeTracker/vendor/.composer/autoload_namespaces.php",
+		"/home/pierre/Projects/TimeTracker/vendor/friendsofsymfony/user-bundle/FOS/UserBundle/FOSUserBundle.php",
+		"/home/pierre/Projects/TimeTracker/src/Tracktus/UserBundle/Tests/Controller/DefaultControllerTest.php",
+		"/home/pierre/Projects/TimeTracker/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Test/WebTestCase.php",
+		"/home/pierre/Projects/TimeTracker/src/Tracktus/UserBundle/Controller/DefaultController.php",
+		"/home/pierre/Projects/TimeTracker/composer.json",
+		"/home/pierre/Projects/TimeTracker/TimeTracker.sublime-project",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/FilmothequeBundle/Form/ActeurForm.php",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/FilmothequeBundle/Form/FilmForm.php",
+		"/home/pierre/public_html/Filmotheque/app/AppKernel.php",
+		"/home/pierre/public_html/Filmotheque/app/config/config.yml",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/UtilisateurBundle/MyAppUtilisateurBundle.php",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/UtilisateurBundle/Entity/Utilisateur.php",
+		"/home/pierre/public_html/Filmotheque/app/config/security.yml",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/FilmothequeBundle/Resources/config/routing.yml",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/UtilisateurBundle/Resources/views/layout.html.twig",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/UtilisateurBundle/Resources/views/connexion.html.twig",
+		"/home/pierre/public_html/Filmotheque/app/config/routing.yml",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/UtilisateurBundle/Resources/config/routing.yml",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/UtilisateurBundle/Controller/DefaultController.php",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/UtilisateurBundle/Resources/config/security.yml",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/FilmothequeBundle/Resources/views/layout.html.twig",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/FilmothequeBundle/Resources/public/css/main.css",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/FilmothequeBundle/Resources/views/Acteur/editer.html.twig",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/FilmothequeBundle/Controller/FilmController.php",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/FilmothequeBundle/Entity/Acteur.php",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/FilmothequeBundle/Resources/views/Acteur/lister.html.twig",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/FilmothequeBundle/Resources/views/Film/lister.html.twig",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/FilmothequeBundle/Resources/views/Film/liste.html.twig",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/FilmothequeBundle/Resources/views/Film/voir.html.twig",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/FilmothequeBundle/Resources/views/Film/editer.html.twig",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/FilmothequeBundle/Controller/ActeurController.php",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/FilmothequeBundle/Resources/views/Default/index.html.twig",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/FilmothequeBundle/Resources/views/Acteur/liste.html.twig",
+		"/home/pierre/public_html/Filmotheque/web/bundles/myappfilmotheque/css/main.css",
+		"/home/pierre/public_html/Filmotheque/src/MyApp/FilmothequeBundle/Resources/views/Acteur/list.html.twig",
+		"/home/pierre/public_html/Filmotheque/vendor/.composer/autoload_namespaces.php",
+		"/home/pierre/public_html/Filmotheque/composer.json",
+		"/home/pierre/public_html/Filmotheque/app/bootstrap.php.cache",
+		"/home/pierre/public_html/Filmotheque/app/config/parameters.ini",
+		"/home/pierre/public_html/Filmotheque/app/check.php",
+		"/home/pierre/.config/sublime-text-2/Packages/User/Base File.sublime-settings",
+		"/home/pierre/Projects/Filmotheque/composer.json",
+		"/home/pierre/Projects/TimeTracker/README.md",
+		"/home/pierre/Projects/TimeTracker/LICENSE",
+		"/home/pierre/.config/sublime-text-2/Packages/Markdown Preview/Default.sublime-commands",
+		"/home/pierre/Projects/TimeTracker/app/config/routing_dev.yml",
+		"/home/pierre/public_html/TimeTracker2/app/config/routing_dev.yml",
+		"/home/pierre/Projects/TimeTracker/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Controller/ConfiguratorController.php",
+		"/home/pierre/Projects/TimeTracker/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Configurator/Step/DoctrineStep.php",
+		"/home/pierre/Projects/TimeTracker/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Configurator/Form/DoctrineStepType.php",
+		"/home/pierre/Projects/TimeTracker/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/config/routing/webconfigurator.xml",
+		"/home/pierre/public_html/TimeTracker2/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Exception/HttpException.php",
+		"/home/pierre/Projects/TimeTracker2/README.md",
+		"/home/pierre/Projects/TimeTracker2/app/AppKernel.php",
+		"/home/pierre/Projects/TimeTracker2/app/config/routing.yml",
+		"/home/pierre/Projects/TimeTracker2/app/config/routing_dev.yml",
+		"/home/pierre/Projects/TimeTracker2/composer.lock",
+		"/media/donnees/Librairies/Php/Symfony/README.md",
+		"/home/pierre/Projects/TimeTracker/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/README.md",
+		"/home/pierre/untitled.html",
+		"/home/pierre/Projects/TimeTracker/vendor/swiftmailer/composer.json",
+		"/home/pierre/Projects/tryin/make.php",
+		"/home/pierre/Projects/tryin/test.php",
+		"/home/pierre/Projects/tryin/testing.phar",
+		"/home/pierre/Projects/GestionStock/src/GestionStock/View/Template.php",
+		"/home/pierre/public_html/TimeTracker/app/autoload.php",
+		"/home/pierre/public_html/TimeTracker/README.md",
+		"/home/pierre/public_html/TimeTracker/.gitignore",
+		"/home/pierre/public_html/TimeTracker/vendor/.composer/autoload_namespaces.php",
+		"/home/pierre/Projects/Mockups/ProjetAnneeMiage/style.css",
+		"/home/pierre/Projects/Mockups/ProjetAnneeMiage/UserPage.html",
+		"/var/www/symfony/vendor/.composer/autoload_namespaces.php",
+		"/home/pierre/Projects/Mockups/ProjetAnneeMiage/index.php",
+		"/home/pierre/Projects/Mockups/ProjetAnneeMiage/mockups.sublime-project",
+		"/home/pierre/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/pierre/Projects/Mockups/ProjetAnneeMiage/esaai.html",
+		"/home/pierre/.config/sublime-text-2/Packages/User/Tag Package.sublime-settings",
+		"/home/pierre/.config/sublime-text-2/Packages/Tag/Tag Package.sublime-settings",
+		"/home/pierre/.config/sublime-text-2/Packages/User/Package Control.sublime-settings",
+		"/home/pierre/.config/sublime-text-2/Packages/User/Global.sublime-settings",
+		"/home/pierre/.config/sublime-text-2/Packages/DocBlockr/Base File.sublime-settings",
+		"/home/pierre/.config/sublime-text-2/Packages/Default/Global.sublime-settings",
+		"/home/pierre/.config/sublime-text-2/Packages/Vintage/README.TXT",
+		"/home/pierre/.config/sublime-text-2/Packages/SublimeTODO/README.markdown",
+		"/home/pierre/.config/sublime-text-2/Packages/SublimeTODO/todo.py",
+		"/home/pierre/.config/sublime-text-2/Packages/Package Control/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"form",
+			"auth",
+			"groups",
+			"id",
+			"group",
+			"id",
+			"security",
+			"form",
+			"/\"",
+			"ctrl+shift+j",
+			"ctrl+F3",
+			"pwq",
+			">",
+			"></",
+			"wrap",
+			"ctrl+k",
+			"col",
+			"ctrl+k",
+			"ctrl+b",
+			"minima"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"user.php",
+				"vendor/friendsofsymfony/user-bundle/FOS/UserBundle/Model/User.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 240.0,
+	"status_bar_visible": true
+}
