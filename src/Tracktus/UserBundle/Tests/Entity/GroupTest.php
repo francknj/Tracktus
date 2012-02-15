@@ -1,6 +1,6 @@
 <?php
 
-namespace Tracktus\UserBundle\Entity;
+namespace Tracktus\UserBundle\Tests\Entity;
 
 use Tracktus\UserBundle\Entity\Group;
 

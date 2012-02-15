@@ -1,6 +1,6 @@
 <?php
 
-namespace Tracktus\UserBundle\Tests;
+namespace Tracktus\UserBundle\Tests\Entity;
 
 use Tracktus\UserBundle\Entity\User;
 
