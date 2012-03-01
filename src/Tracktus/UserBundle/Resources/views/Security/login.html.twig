@@ -1,0 +1,4 @@
+{% extends 'TracktusAppBundle::layout.html.twig' %}
+{% block content %}
+	{% include 'FOSUserBundle:Security:login.html.twig' with {'last_username' : last_username, 'error': error, 'csrf_token' : csrf_token}%}
+{% endblock %}
