@@ -1,6 +1,7 @@
 app/cache/*
 app/logs/*
 app/*.cache
+app/config/parameters.ini
 web/bundles/*
 web/uploads/*
 vendor

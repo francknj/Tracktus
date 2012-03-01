@@ -1,5 +1,10 @@
-TracktusAppBundle:
-    resource: "@TracktusAppBundle/Controller/"
+# TracktusAppBundle:
+#     resource: "@TracktusAppBundle/Controller/"
+#     type:     annotation
+#     prefix:   /
+
+TracktusUserBundle:
+    resource: "@TracktusUserBundle/Controller/"
     type:     annotation
     prefix:   /
 
