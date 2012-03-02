@@ -1,6 +1,11 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
+}
+
+body{
+border: 2px solid black;
+background:#f3ece2;
 }
 
 body {
@@ -20,6 +25,9 @@ div.box {
     position: relative;
     top: 50px;
     border: 1px solid #262626;
+    margin-left:1000px;
+    margin-top:100px;
+    
 }
 
 div.h1 {
@@ -78,12 +86,31 @@ div.box .button
     padding:4px 7px;
     background:#CC0000;
     border:0px;
-    position: relative;
+    position: relative;Edit CSSWeb Developer Dashboard
     top:10px;
     left:382px;
     width:100px;
     border-bottom: 1px double #660000;
     border-top: 1px double #660000;
     border-left:1px double #FF0033;
-    border-right:1px double #FF0033;
+    border-right:1px double #FF0033;Edit CSSWeb Developer Dashboard
     }
+
+
+#header {
+border-bottom: 2px solid black;
+
+}
+
+#footer {
+     border-bottom: 2px solid black;
+     border-top: 2px solid black;
+     margin-top:200px;
+     color: #black;
+     font-size: 25px;
+    
+     padding: 10px O 10px 10px;
+     
+
+
+}
