@@ -1,0 +1,24 @@
+{% extends 'TracktusAppBundle::layout.html.twig' %}
+{% block content %}
+    {% if error %}
+    <div>{{ error|trans({}, 'FOSUserBundle') }}</div>
+    {% endif %}
+    <div class="box">
+        <h2>Authentification</h2>
+        <form action="{{ path("fos_user_security_check") }}" method="post">
+            <p>
+                <input type="hidden" name="_csrf_token" value="{{ csrf_token }}" />
+
+                <label for="username"><span>{{ 'security.login.username'|trans({}, 'FOSUserBundle') }}</span><input type="text" class ="input_text" id="username" name="_username" value="{{ last_username }}" /></label>
+
+                <label for="password"><span>{{ 'security.login.password'|trans({}, 'FOSUserBundle') }}</span><input type="password" class ="input_text" id="password" name="_password" /></label>
+
+                <label for="remember_me"><input type="checkbox" class ="input_text" id="remember_me" name="_remember_me" value="on" /><span>{{ 'security.login.remember_me'|trans({}, 'FOSUserBundle') }}</span></label>
+
+                <input type="submit" id="submit" name="_submit" value="{{ 'security.login.submit'|trans({}, 'FOSUserBundle') }}"/>
+            </p>
+        </form>
+        <p><a href="{{ path("resetting_request") }}">{{ 'password.forgotten'|trans({}, 'TracktusUserBundle') }}</a></p>
+    </div>
+    
+{% endblock %}
