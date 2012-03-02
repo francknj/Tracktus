@@ -8,6 +8,11 @@
 	<body>
 		<div id="header">
 			<h1> TracktUs </h1>
+			<div id="user_info">
+				{% if is_granted('ROLE_USER') %}
+					<a href="{{ path('fos_user_security_logout') }}">Logout</a>
+				{% endif %}
+			</div>
 			{% block header %}{% endblock %}
 		</div>
 		<div id="content">
