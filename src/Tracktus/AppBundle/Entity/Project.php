@@ -3,47 +3,61 @@
 namespace Tracktus\AppBundle\Entity;
 
 use Tracktus\UserBundle\Entity\User;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\ORM\Mapping as ORM;
 
+/**
+ * @ORM\Entity
+ */
 class Project {
     /**
      * Name of the project
      * @var string
+	 * @ORM\Column(type="string", unique="true")
      */
     private $name;
 
     /**
      * Description of the project
      * @var string
+	 * @ORM\Column(type="string")
      */
     private $description;
 
     /**
      * Creation date of the project
      * @var \DateTime
+	 * @ORM\Column(type="date")
      */
     private $creationDate;
 
     /**
      * Manager of the project
      * @var User
+	 * @OneToOne(targetEntity="User")
+     * @JoinColumn(name="manager", referencedColumnName="id")
      */
     private $manager;
 
     /**
      * Creator of the project
      * @var User
+	 * @OneToOne(targetEntity="User")
+     * @JoinColumn(name="creator", referencedColumnName="id")
      */
     private $creator;
 
     /**
      * Members that collaborate on this project
-     * @var \SplObjectStorage
+     * @var Doctrine\Common\Collection\ArrayCollection
+	 * @OneToMany(targetEntity="Urer")
      */
     private $members;
 
     /**
      * Indicates whether a project is finished or not
      * @var bool
+	 * @ORM\Column(type="boolean")
      */
     private $finished;
 
@@ -56,7 +70,7 @@ class Project {
         $this->name = $name;
         $this->description = $description;
         $this->creationDate = new \DateTime();
-        $this->members = new \SplObjectStorage();
+        $this->members = new ArrayCollection();
     }
 
     /**
