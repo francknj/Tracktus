@@ -5,3 +5,4 @@ Tracktus: The project tracker
 
 Tracktus is a project tracker used to ease project management and communication inside a developpement team.
 
+[Project's pivotal tracker link](https://www.pivotaltracker.com/projects/521411)
