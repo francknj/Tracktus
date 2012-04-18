@@ -24,4 +24,14 @@ class DefaultController extends Controller
         }
         return $response = $this->redirect($this->generateUrl('fos_user_security_login'));
     }
+    
+    
+    public function developperAction(){
+        
+            return $this->render('TracktusAppBundle:developper:developper.html.twig');
+     
+    }
+   
+   
+   
 }

@@ -20,12 +20,14 @@ class AppKernel extends Kernel
             new Tracktus\UserBundle\TracktusUserBundle(),
             new FOS\UserBundle\FOSUserBundle(),
             new Tracktus\AppBundle\TracktusAppBundle(),
+
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
             $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
             $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
+            $bundles[] = new Symfony\Bundle\DoctrineFixturesBundle\DoctrineFixturesBundle();
         }
 
         return $bundles;
