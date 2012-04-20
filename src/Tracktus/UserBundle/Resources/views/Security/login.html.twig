@@ -13,12 +13,11 @@
 
                 <label for="password"><span>{{ 'security.login.password'|trans({}, 'FOSUserBundle') }}</span><input type="password" class ="input_text" id="password" name="_password" /></label>
 
-                <label for="remember_me"><input type="checkbox" class ="input_text" id="remember_me" name="_remember_me" value="on" /><span>{{ 'security.login.remember_me'|trans({}, 'FOSUserBundle') }}</span></label>
-
                 <input type="submit" id="submit" name="_submit" value="{{ 'security.login.submit'|trans({}, 'FOSUserBundle') }}"/>
+				<label for="remember_me"></label><input id="checkbox" type="checkbox" class ="input_text" id="remember_me" name="_remember_me" value="on" /><span>{{ 'security.login.remember_me'|trans({}, 'FOSUserBundle') }}</span>
             </p>
         </form>
-        <p><a href="{{ path("resetting_request") }}">{{ 'password.forgotten'|trans({}, 'TracktusUserBundle') }}</a></p>
+        <p><a href="{{ path("resetting_request") }}">{{ 'security.login.password_forgotten'|trans({}, 'TracktusUserBundle') }}</a></p>
     </div>
     
 {% endblock %}
