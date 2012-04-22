@@ -11,6 +11,16 @@ use Doctrine\ORM\Mapping as ORM;
  * Represents a project in the tracker
  */
 class Project {
+
+    /**
+    * Id of the project
+    * @var int
+    * @ORM\Id
+    * @ORM\Column(type="integer")
+    */
+    private $id;
+    
+    
     /**
      * Name of the project
      * @var string
@@ -35,23 +45,27 @@ class Project {
     /**
      * Manager of the project
      * @var User
-	 * @OneToOne(targetEntity="User")
-     * @JoinColumn(name="manager", referencedColumnName="id")
+	* @ORM\OneToOne(targetEntity="Tracktus\UserBundle\Entity\User")
+     * @ORM\JoinColumn(name="manager", referencedColumnName="id")
      */
     private $manager;
 
     /**
      * Creator of the project
      * @var User
-	 * @OneToOne(targetEntity="User")
-     * @JoinColumn(name="creator", referencedColumnName="id")
+	 * @ORM\OneToOne(targetEntity="Tracktus\UserBundle\Entity\User")
+     * @ORM\JoinColumn(name="creator", referencedColumnName="id")
      */
     private $creator;
 
     /**
      * Members that collaborate on this project
      * @var Doctrine\Common\Collection\ArrayCollection
-	 * @OneToMany(targetEntity="Urer")
+	 * @ORM\ManyToMany(targetEntity="Tracktus\UserBundle\Entity\User")
+	 * @ORM\JoinTable(name="users_projects",
+	 *      joinColumns={@ORM\JoinColumn(name="user_id", referencedColumnName="id")},
+	 *      inverseJoinColumns={@ORM\JoinColumn(name="project_id", referencedColumnName="id", unique=true)}
+	 *      )
      */
     private $members;
 
@@ -160,12 +174,12 @@ class Project {
      */
     public function addMember(User $user)
     {
-        $this->members->attach($user);
+        $this->members->add($user);
     }
 
     /**
      * Get all the members of the project
-     * @return \SplObjectStorage
+     * @return \Doctrine\Common\Collection\ArrayCollection
      */
     public function getMembers()
     {
