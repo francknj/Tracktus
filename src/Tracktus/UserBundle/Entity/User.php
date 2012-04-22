@@ -25,9 +25,10 @@ class User extends BaseUser
      * A list of groups the user belongs
      * @var Doctrine\Common\Collections\Collection
      * @ORM\ManyToMany(targetEntity="Group")
-     * @ORM\JoinTable(name="users_groups", 
-     *     joinColumns={@ORM\JoinColumn(name="user_id", referencedColumnName="id")},
-     *     inverseJoinColumns={@ORM\JoinColumn(name="group_id", referencedColumnName="id")})
+     * @ORM\JoinTable(name="users_groups",
+     *     joinColumns={@ORM\JoinColumn(name="group_id", referencedColumnName="id")},
+     *     inverseJoinColumns={@ORM\JoinColumn(name="user_id", referencedColumnName="id")}
+     *       )
      */
     protected $groups;
 
